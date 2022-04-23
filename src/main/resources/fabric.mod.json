@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "vinculum",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Vinculum",
+  "description": "We are one. Yet we are different, Bound only by our separation. What is the purpose of it all?",
   "authors": [
-    "Me!"
+    "CYNO"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/CYNO-MC/Vinculum"
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/modid/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.cyno.vinculum.VinculumMain"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "vinculum.mixins.json"
   ],
 
   "depends": {

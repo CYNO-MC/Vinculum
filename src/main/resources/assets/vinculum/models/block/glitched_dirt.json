@@ -1,0 +1,6 @@
+{
+  "parents": "block/cube_all",
+  "textures": {
+    "all": "viniculum:block/glitched_dirt"
+  }
+}

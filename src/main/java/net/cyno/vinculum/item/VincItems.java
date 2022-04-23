@@ -7,7 +7,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-public class VincItemRegistry {
+public class VincItems {
 
     public static final Item VINCULIC_CRYSTAL = registerVincItems("vinculic_crystal",
             new Item(new FabricItemSettings().group(ItemGroup.MISC).fireproof()));
@@ -16,7 +16,7 @@ public class VincItemRegistry {
         return Registry.register(Registry.ITEM, new Identifier(VinculumMain.MOD_ID, name), item);
     }
 
-    public static void printItems() {
+    public static void registerVincItems() {
         System.out.println("Registering Items for " + VinculumMain.MOD_ID);
     }
 

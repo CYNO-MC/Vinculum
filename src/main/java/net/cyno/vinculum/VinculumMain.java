@@ -1,5 +1,6 @@
 package net.cyno.vinculum;
 
+import net.cyno.vinculum.item.VincItemRegistry;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +13,7 @@ public class VinculumMain implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		VincItemRegistry.printItems();
 
-		LOGGER.info("Hello Fabric world!");
 	}
 }

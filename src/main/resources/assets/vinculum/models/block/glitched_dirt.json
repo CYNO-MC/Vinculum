@@ -1,5 +1,5 @@
 {
-  "parents": "block/cube_all",
+  "parent": "block/cube_all",
   "textures": {
     "all": "vinculum:block/glitched_dirt"
   }

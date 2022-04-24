@@ -6,6 +6,7 @@ import net.cyno.vinculum.util.VincRegistries;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import software.bernie.geckolib3.GeckoLib;
 
 public class VinculumMain implements ModInitializer {
 
@@ -14,6 +15,7 @@ public class VinculumMain implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		GeckoLib.initialize();
 		VincItems.registerVincItems();
 		VincBlocks.registerVincBlocks();
 		VincRegistries.registerModStuffs();

@@ -8,6 +8,7 @@ import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -15,7 +16,7 @@ public class VincBlocks {
 
 
     public static final Block GLITCHED_DIRT = registerBlock("glitched_dirt",
-            new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).strength(0.5F).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).strength(0.5F).requiresTool().sounds(BlockSoundGroup.GRAVEL)), ItemGroup.MISC);
 
 
 

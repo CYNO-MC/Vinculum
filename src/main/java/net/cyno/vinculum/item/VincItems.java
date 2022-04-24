@@ -12,6 +12,7 @@ public class VincItems {
     public static final Item VINCULIC_CRYSTAL = registerVincItems("vinculic_crystal",
             new Item(new FabricItemSettings().group(ItemGroup.MISC).fireproof()));
 
+
     private static Item registerVincItems(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(VinculumMain.MOD_ID, name), item);
     }

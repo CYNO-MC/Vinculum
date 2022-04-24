@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.herobrine.walk": {
+			"loop": true,
+			"animation_length": 0.75,
+			"bones": {
+				"left_leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [-47.5, 0, 0]
+						},
+						"0.3333": {
+							"vector": [37.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [-47.5, 0, 0]
+						}
+					}
+				},
+				"right_leg": {
+					"rotation": {
+						"0.0": {
+							"vector": [47.5, 0, 0]
+						},
+						"0.3333": {
+							"vector": [-37.5, 0, 0]
+						},
+						"0.75": {
+							"vector": [47.5, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"animation.herobrine.idle": {
+			"loop": true,
+			"animation_length": 0.25,
+			"bones": {
+				"body": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

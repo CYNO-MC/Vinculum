@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.cyno.vinculum.VinculumMain"
+    ],
+    "client": [
+      "net.cyno.vinculum.VinculumClient"
     ]
   },
   "mixins": [

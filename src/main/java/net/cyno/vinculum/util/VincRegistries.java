@@ -10,6 +10,8 @@ public class VincRegistries {
         registerAttributes();
     }
 
+
+    
     private static void registerAttributes() {
         FabricDefaultAttributeRegistry.register(VincEntities.HEROBRINE, HerobrineEntity.setAttributes());
     }

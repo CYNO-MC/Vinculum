@@ -7,6 +7,7 @@ import net.minecraft.util.Identifier;
 import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 
 public class HerobrineRenderer extends GeoEntityRenderer<HerobrineEntity> {
+
     public HerobrineRenderer(EntityRendererFactory.Context ctx) {
         super(ctx, new HerobrineModel());
     }

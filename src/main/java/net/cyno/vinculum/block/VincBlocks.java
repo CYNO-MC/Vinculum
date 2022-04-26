@@ -1,6 +1,7 @@
 package net.cyno.vinculum.block;
 
 import net.cyno.vinculum.VinculumMain;
+import net.cyno.vinculum.item.VincItemGroups;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -16,7 +17,11 @@ public class VincBlocks {
 
 
     public static final Block GLITCHED_DIRT = registerBlock("glitched_dirt",
-            new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).strength(0.5F).requiresTool().sounds(BlockSoundGroup.GRAVEL)), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).strength(0.5F).requiresTool().sounds(BlockSoundGroup.GRAVEL)), VincItemGroups.VINCULUM);
+
+
+
+
 
 
 

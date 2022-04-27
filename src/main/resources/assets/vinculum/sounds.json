@@ -1,0 +1,8 @@
+{
+  "herobrine_hurt_sound": {
+    "subtitle": "subtitles.vinculum.herobrine_hurt_sound",
+    "sounds": [
+      "vinculum:herobrine_hurt_sound"
+    ]
+  }
+}

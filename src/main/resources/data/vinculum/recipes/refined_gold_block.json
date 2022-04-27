@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:gold_block"
+  },
+    "result": "vinculum:refined_gold_block",
+    "experience": 1.0,
+    "cookingtime": 150
+}

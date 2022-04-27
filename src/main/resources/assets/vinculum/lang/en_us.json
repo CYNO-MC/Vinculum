@@ -1,11 +1,15 @@
 {
   "item.vinculum.vinculic_crystal": "Vinculic Crystal",
+
   "block.vinculum.glitched_dirt": "D̴̼̰̗̘̫̗̀̓́̍̏̚͠Ȋ̷̥̰͙̘̮͔͚̚R̷͙͎̅T̴̢͎̱̗̠͔̉͝",
+  "block.vinculum.cracked_netherrack": "Cracked Netherrack",
+  "block.vinculum.refined_gold_block": "Block of Refined Gold",
+  "block.vinculum.crys_cobble_block": "Crystal Cobblestone",
 
   "entity.vinculum.herobrine": "Herobrine",
 
 
-
+  "vinculum.herobrine_hurt_sound": "ouch",
 
 
   "itemGroup.vinculum.vinculum": "Vinculum"
